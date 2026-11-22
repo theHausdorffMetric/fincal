@@ -1,0 +1,30 @@
+[package]
+name = "fincal"
+version = "0.21.0"
+edition = "2024"
+rust-version = "1.88"
+authors = ["Daniel Probst <dan@probst.dev>"]
+description = "A rule-based financial holiday calendar framework: business-day queries, ISDA date adjustment, calendar comparison, and rule fitting, with built-in market calendars."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/theHausdorffMetric/fincal"
+readme = "README.md"
+keywords = ["calendar", "holiday", "business-day", "finance", "isda"]
+categories = ["date-and-time", "finance"]
+# Whitelist: only code and its own documentation are packaged. Publisher
+# schedules and other third-party source material used to verify the
+# built-in calendars are not part of this repository or the package.
+include = ["src/**", "tests/*.rs", "/README.md", "/CHANGELOG.md", "/LICENSE-MIT", "/LICENSE-APACHE"]
+
+[features]
+default = ["cli"]
+# The `fincal` CLI binary.
+cli = ["dep:clap"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"], optional = true }
+jiff = "1.0"
+
+[[bin]]
+name = "fincal"
+path = "src/bin/fincal.rs"
+required-features = ["cli"]
