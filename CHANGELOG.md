@@ -11,6 +11,9 @@ All notable changes to this crate are documented here. The format follows
 First public release. Versions up to 0.21.0 were developed privately; their
 history is not part of this repository.
 
+Licensed under GPL-3.0-or-later. Earlier commits of this repository were offered
+under MIT OR Apache-2.0; that grant remains valid for those commits.
+
 ### Added
 
 - Rule layer: `HolidayRule` atoms (fixed and observed dates, nth/last weekday,

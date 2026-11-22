@@ -328,14 +328,14 @@ of them.
 
 ## License
 
-Licensed under either of
+Copyright (C) 2026 Daniel Probst
 
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
-- MIT license ([LICENSE-MIT](LICENSE-MIT))
-
-at your option.
+fincal is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version (`GPL-3.0-or-later`). It is distributed without any warranty; see
+[LICENSE](LICENSE) for the full text.
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
-```
+for inclusion in the work by you shall be licensed as above, without any
+additional terms or conditions.
