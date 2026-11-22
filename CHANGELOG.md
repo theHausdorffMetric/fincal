@@ -6,7 +6,7 @@ All notable changes to this crate are documented here. The format follows
 
 ## [Unreleased]
 
-## [0.21.0]
+## [0.21.0] - 2026-11-22
 
 First public release. Versions up to 0.21.0 were developed privately; their
 history is not part of this repository.

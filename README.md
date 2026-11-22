@@ -35,7 +35,7 @@ calendar.
   holidays, ad-hoc date lists, date ranges, weekend-observance shifts, reduced
   weekday publication schedules, and explicit weekends with gazette working-day
   exceptions.
-- Twenty built-in market calendars (TARGET, EEX Power, US, UK, ICE, SGX, Platts, OPIS, ICIS, China futures exchanges, Argus, Baltic Exchange).
+- Twenty-three built-in market calendars (TARGET, EEX Power, US, UK, ICE, SGX, Platts, OPIS, ICIS, China futures exchanges, Argus, Baltic Exchange).
 - In-house Easter computation (Meeus/Jones/Butcher) — no extra dependency.
 - Bounded calendars with explicit `valid_range`; out-of-range queries return a typed
   error rather than a wrong answer.
@@ -170,7 +170,7 @@ Observance rules resolve a ±1-year window so cross-year shifts work correctly
 
 ## Built-in market calendars
 
-`builtin::all_calendars()` returns all twenty-two, `builtin::calendar(name)` looks one up
+`builtin::all_calendars()` returns all twenty-three, `builtin::calendar(name)` looks one up
 by name (ignoring case), and `builtin::all_rules()` returns the 88 distinct rules they
 compose. Calendar names are a stable interface — configurations refer to them.
 
